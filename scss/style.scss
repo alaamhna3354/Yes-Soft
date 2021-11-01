@@ -96,8 +96,11 @@ margin: 0;
     justify-content: space-around;
     padding-bottom: $mainPadding;
     div{
-        margin: 0 ;
+        margin: 15px 0;
     }
+    div:not(:last-child)::before{
+        bottom: 0;
+     }
     .logo{
         padding-inline-start: 0;  
         }
